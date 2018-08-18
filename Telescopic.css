@@ -1,0 +1,51 @@
+*{margin:0;padding:0;list-style: none;border:0;}
+.Telescopic{
+	position: fixed;
+	width: 105px;
+	right: 50px;
+	bottom: 20px;
+	z-index: 999;
+}
+.rq{
+	width: 105px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-family: "微软雅黑";
+	background: #3d86ff;
+	color: #fcff00;
+	font-size: 18px;
+	font-weight: bold;
+}
+.wx{
+	width: 105px;
+	height: 147px;
+}
+.return_top{
+	width: 105px;
+	height: 36px;
+	background: url("../img/top.png") no-repeat;
+	cursor: pointer;
+}
+.nav{overflow: hidden;display: none;height:0;}
+.nav a{
+	display: block;
+	width: 105px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 4px;
+	background: #80b0ff;
+	color: #fff;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-ms-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+}
+.nav a:hover{
+	background: #3d86ff;
+	color: #fcff00;
+}
